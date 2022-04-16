@@ -101,67 +101,53 @@
   <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox">
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(https://www.elplural.com/uploads/s1/16/33/9/escuela-20y-20tecnolog-c3-ada.jpeg)">
-          <div class="carousel-container">
-            <div class="container">
-                <div class="parraf">
-                  <h1 class="animate__animated animate__fadeInDown" style="font-size: 80px;"><b style="font-size:150px;">100</b> MEGAS</h1>
-                  <h1 class="animate__animated animate__fadeInDown texto">INTERNET ILIMITADO</h1>
-                  <h3 class="animate__animated animate__fadeInUp"><b class="texto">DESDE</b> <b style="font-size: 200px;">$ 500</b></h3>
-                  <h3 class="animate__animated animate__fadeInUp texto">AL MES</h3>
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url(https://www.elplural.com/uploads/s1/16/33/9/escuela-20y-20tecnolog-c3-ada.jpeg)">
+                <div class="carousel-container">
+                <div class="container">
+                    <div class="parraf">
+                        <h1 class="animate__animated animate__fadeInDown" style="font-size: 10vw;"><b style="font-size:10vw;">100</b> MEGAS</h1>
+                        <h1 class="animate__animated animate__fadeInDown texto">INTERNET ILIMITADO</h1>
+                        <h3 class="animate__animated animate__fadeInUp"><b class="texto">DESDE</b> <b style="font-size: 10vw;">$ 500</b></h3>
+                        <h3 class="animate__animated animate__fadeInUp texto">AL MES</h3>
+                    </div>
+                    <div>
+                        <!--a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a-->
+                    </div>
                 </div>
-                <div>
-                  <!--a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a-->
                 </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
-          <div class="carousel-container">
-            <div class="container">
-              <div class="parraf">
-                <h1 class="animate__animated animate__fadeInDown" style="font-size: 80px;"><b style="font-size:150px;">200</b> MEGAS</h1>
-                <h1 class="animate__animated animate__fadeInDown texto">INTERNET ILIMITADO</h1>
-                <h3 class="animate__animated animate__fadeInUp"><b class="texto">DESDE</b> <b style="font-size: 200px;">$ 600</b></h3>
-                <h3 class="animate__animated animate__fadeInUp texto">AL MES</h3>
-              </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url(https://canalc.com.ar/wp-content/uploads/2022/03/plataformas-digitales.jpg)">
+                <div class="carousel-container">
+                <div class="container">
+                    <div class="parraf">
+                    <h1 class="animate__animated animate__fadeInDown texto">AHORA CONTARAS ADEMÁS CON</h1>
+                    <h1 class="animate__animated animate__fadeInDown" style="font-size: 8vw;"><b style="font-size:8vw;">TV</b> Y <b style="font-size:8vw;">PELICULAS</b></h1>
+                    <h3 class="animate__animated animate__fadeInUp texto">TOTALMENTE</h3>
+                    <h3 class="animate__animated animate__fadeInUp" style="font-size: 8vw;">GRATIS !!!</h3>
+                    </div>
+                </div>
+                </div>
             </div>
-          </div>
+
         </div>
 
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
-          <div class="carousel-container">
-            <div class="container">
-              <div class="parraf">
-                <h1 class="animate__animated animate__fadeInDown" style="font-size: 80px;"><b style="font-size:150px;">500</b> MEGAS</h1>
-                <h1 class="animate__animated animate__fadeInDown texto">INTERNET ILIMITADO</h1>
-                <h3 class="animate__animated animate__fadeInUp"><b class="texto">DESDE</b> <b style="font-size: 200px;">$ 800</b></h3>
-                <h3 class="animate__animated animate__fadeInUp texto">AL MES</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
+        </a>
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
+        </a>
 
     </div>
-  </section><!-- End Hero -->
+</section><!-- End Hero -->
 
   <!-- asdasdasdasd -->
 
