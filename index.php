@@ -24,111 +24,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-    .tarjeta{
-      font-family: "Poppins", sans-serif !important;
-      text-transform: uppercase;
-    }
-
-    html, body, #hero, #heroCarousel, .carousel-inner{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        font-family: "Poppins", sans-serif !important;
-        text-transform: uppercase;
-    }
-    .container {
-      font-size: 14px;
-      color: #666666;
-      font-family: "Open Sans";
-    }
-    .parraf{
-      color: #008FC1 !important;
-    }
-    .texto{
-      color: white;
-      font-weight: bold;
-    }
-    [class*="col-"] {
-      float: left;
-      padding: 15px;
-    }
-    @media only screen and (max-width: 1000px) {
-      .pc {
-        display: none;
-      }
-      .celular {
-        display: visible;
-      }
-    }
-    @media only screen and (min-width: 1000px) {
-      .pc {
-        display: visible;
-      }
-      .celular {
-        display: none;
-      }
-    }
-
-    @media only screen and (max-width: 700px) {
-      .tarjeta {
-        width: 100% !important;
-      }
-    }
-
-    .card-custom {
-      overflow: hidden;
-      min-height: 350px;
-      box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
-    }
-
-    .card-custom-img {
-      height: 100px;
-      min-height: 100px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      border-color: inherit;
-    }
-
-    /* First border-left-width setting is a fallback */
-    .card-custom-img::after {
-      position: absolute;
-      content: "";
-      top: 60px;
-      left: 0;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-top-width: 40px;
-      border-right-width: 0;
-      border-bottom-width: 0;
-      border-left-width: 545px;
-      border-left-width: calc(575px - 5vw);
-      border-top-color: transparent;
-      border-right-color: transparent;
-      border-bottom-color: transparent;
-      border-left-color: inherit;
-    }
-
-    .card-custom-avatar img {
-      border-radius: 50%;
-      box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
-      position: absolute;
-      top: 5px;
-      left: 1.25rem;
-      width: 100px;
-      height: 100px;
-    }
-
-</style>
 
 </head>
 
@@ -165,13 +64,14 @@
             </ul-->
           </li>
           <li><a href="#planes">Más planes</a></li>
+          <li><a href="#nosotros">Conocenos</a></li>
 
           <!--li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog.html">Blog</a></li>
 
           <li><a href="contact.html">Contact</a></li-->
-          <li><a href="#hero" class="getstarted"><b>Contratar ahora!</b></a></li>
+          <li><a href="#contact" class="getstarted"><b>Contratar ahora!</b></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -231,28 +131,28 @@
     </div>
   </section><!-- End Hero -->
 
-  <!--section id="about" class="about">
-      <div class="container">
+  <section id="nosotros" class="about">
+    <div class="container">
 
-        <div class="row content">
-          <div class="col-lg-6">
-            <h2 align="center">ACERCA DE NOSOTROS</h2>
-            <h3 align="justify">Somos una empresa 100% Mexicana, atendiendo al sector recidencial, pyme, empresarial y gobierno en el área de telecomunicaciones, así como en diseño de redes, video vigilancia, computo, energías alternativas y punto de venta.</h3>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <br><br><br>
-            <ul>
-              <li style="text-align: justify;"><i class="ri-check-double-line"></i> Empresa especializada en brindar servicios de Internet, a traves de Redes Inalámbricas y servicio de Fibra óptica.</li>
-              <li style="text-align: justify;"><i class="ri-check-double-line"></i> Somos una empresa jóven e innovadora que crea un medio tecnológico de vanguardia local para promover sus productos o servicios.</li>
-              <li style="text-align: justify;"><i class="ri-check-double-line"></i> Contamos con personal capacitado y certificado en diferentes áreas, con años en el mercado y más de un centenar de clientes satisfechos.</li>
-            </ul>
-          </div>
+      <div class="row content">
+        <div class="col-lg-6">
+          <h2 align="center">ACERCA DE NOSOTROS</h2>
+          <h3 align="justify">Somos una empresa 100% Mexicana, atendiendo al sector recidencial, pyme, empresarial y gobierno en el área de telecomunicaciones, así como en diseño de redes, video vigilancia, computo, energías alternativas y punto de venta.</h3>
         </div>
-
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <br><br><br>
+          <ul>
+            <li style="text-align: justify;"><i class="ri-check-double-line"></i> Empresa especializada en brindar servicios de Internet, a traves de Redes Inalámbricas y servicio de Fibra óptica.</li>
+            <li style="text-align: justify;"><i class="ri-check-double-line"></i> Somos una empresa jóven e innovadora que crea un medio tecnológico de vanguardia local para promover sus productos o servicios.</li>
+            <li style="text-align: justify;"><i class="ri-check-double-line"></i> Contamos con personal capacitado y certificado en diferentes áreas, con años en el mercado y más de un centenar de clientes satisfechos.</li>
+          </ul>
+        </div>
       </div>
-    </section-->
 
-  <section id="clients" class="clients section-bg">
+    </div>
+  </section>
+
+  <section id="productos" class="clients section-bg">
     <div class="container">
 
       <div class="row">
@@ -302,7 +202,7 @@
           <div class="card-custom-img" style="background-image: url(https://besthqwallpapers.com/Uploads/29-6-2019/98568/thumb2-brown-stone-wall-close-up-brown-backgrounds-stone-textures-brown-stone-texture.jpg);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">15</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">15</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -315,7 +215,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">3</span>00.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">3</span>00.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -323,7 +223,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -338,7 +238,7 @@
           <div class="card-custom-img" style="background-image: url(https://besthqwallpapers.com/Uploads/29-6-2019/98568/thumb2-brown-stone-wall-close-up-brown-backgrounds-stone-textures-brown-stone-texture.jpg);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">25</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">25</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -351,7 +251,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">3</span>50.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">3</span>50.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -359,7 +259,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -374,7 +274,7 @@
           <div class="card-custom-img" style="background-image: url(https://besthqwallpapers.com/Uploads/29-6-2019/98568/thumb2-brown-stone-wall-close-up-brown-backgrounds-stone-textures-brown-stone-texture.jpg);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">35</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">35</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -387,7 +287,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">4</span>00.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">4</span>00.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -395,7 +295,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -410,7 +310,7 @@
           <div class="card-custom-img" style="background-image: url(https://www.xtrafondos.com/wallpapers/poligonos-de-colores-7888.jpg);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">50</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">50</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -423,7 +323,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">4</span>50.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">4</span>50.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -431,7 +331,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -446,7 +346,7 @@
           <div class="card-custom-img" style="background-image: url(https://www.xtrafondos.com/wallpapers/poligonos-de-colores-7888.jpg);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">100</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">100</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -459,7 +359,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">5</span>00.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">5</span>00.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -467,7 +367,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -482,7 +382,7 @@
           <div class="card-custom-img" style="background-image: url(https://www.xtrafondos.com/wallpapers/poligonos-de-colores-7888.jpg);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">200</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">200</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -495,7 +395,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">6</span>00.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">6</span>00.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -503,7 +403,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -518,7 +418,7 @@
           <div class="card-custom-img" style="background-image: url(https://ak.picdn.net/shutterstock/videos/20628466/thumb/1.jpg?ip=x480);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">500</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">500</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -531,7 +431,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">8</span>00.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">8</span>00.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -539,7 +439,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -554,7 +454,7 @@
           <div class="card-custom-img" style="background-image: url(https://ak.picdn.net/shutterstock/videos/20628466/thumb/1.jpg?ip=x480);"></div>
           
           <div class="card-body" style="overflow-y: auto">
-            <h4 class="card-title"><b> <span style="color: #008FC1; font-size: 40px;">1000</span> MEGAS </b></h4>
+            <h4 class="card-title"><b> <span style="color: orange; font-size: 40px;">1000</span> MEGAS </b></h4>
             <center>
               
             </center>
@@ -567,7 +467,7 @@
                   
                   por tan solo:
 
-                  <h1 class="card-title"><b>$ <span style="color: #008FC1;">1</span>400.00</b></h1>
+                  <h1 class="card-title"><b>$ <span style="color: orange;">1</span>400.00</b></h1>
                   Al mes
                 </center>
               <hr>
@@ -575,7 +475,7 @@
           </div>
           <div class="card-footer" style="background: inherit; border-color: inherit;">
             <center>
-              <button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button>
+              <a href="#contact"><button class="btn" style="background: gray;"><b style="color: white;">CONTRATAR AHORA</b></button></a>
               <BR></BR>
             </center>
           </div>
@@ -587,79 +487,100 @@
     </div>
   </section>
 
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="container about content">
+        <h2 align="center"><b>Contáctanos</b></h2>
+        <br><br>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-2">&nbsp;</div>
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="info">
+            <div >
+              <i class="ri-map-pin-line"></i>
+              <p>Andador Carlos Hank No.304<br>Santiago Tianguistenco</p>
+              <br>
+            </div>
+
+            <div >
+              <i class="ri-mail-send-line"></i>
+              <p>722 531 1131</p>
+              <br><br>
+            </div>
+
+            <div >
+              <i class="ri-phone-line"></i>
+              <p>722 916 9999 (EXT. 3)<br>
+                713 1334 557</p>
+                <br>
+            </div>
+
+            <div >
+              <i class="bi-clock"></i>
+              <p><b>LUNES - VIERNES</b><br>
+                09:00 AM - 06:00 PM<br>
+                <b>SÁBADO</b><br>
+                09:30 AM - 03:00 PM</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="300">
+          <form action="controllers/enviar.php" method="post" class="php-email-form" autocomplete="off">
+            <div class="form-group">
+              <input type="text" name="nombre" class="form-control letras" id="nombre" placeholder="Coloque su nombre" required maxlength="60">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control numeros" name="celular" id="celular" placeholder="Coloque su número celular" maxlength="10">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control letras" name="localidad" id="localidad" placeholder="Coloque la localidad / lugar a donde pertenece" maxlength="40">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control letras" name="mensaje" rows="5" placeholder="Mensaje o duda" required></textarea>
+            </div>
+            <div class="text-center"><button type="submit"><b>Enviar mensaje</b></button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>Sailor</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Emenet Comunicaciones</span></strong>. Todos los derechos reservados
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://m-net.mx/VillaAdrian/" target="_blank">IDGS Adrián Villa</a>
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <script>
+    $(document).ready(function(){
+      $(".letras").bind('keypress', function(eventoEntrada) {
+        let expresionRegular = new RegExp("^[a-zA-Záéíóú?¿ ]+$");
+        if (!expresionRegular.test(eventoEntrada.key)) {
+          eventoEntrada.preventDefault();
+        }
+      });
+      $(".numeros").bind('keypress', function(eventoEntrada) {
+        let expresionRegular = new RegExp("^[0-9]+$");
+        if (!expresionRegular.test(eventoEntrada.key)) {
+          eventoEntrada.preventDefault();
+        }
+      });
+    });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -667,7 +588,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

@@ -1478,24 +1478,6 @@ section {
 .blog .blog-comments .reply-form p {
   font-size: 14px;
 }
-.blog .blog-comments .reply-form input {
-  border-radius: 4px;
-  padding: 10px 10px;
-  font-size: 14px;
-}
-.blog .blog-comments .reply-form input:focus {
-  box-shadow: none;
-  border-color: #e9797f;
-}
-.blog .blog-comments .reply-form textarea {
-  border-radius: 4px;
-  padding: 10px 10px;
-  font-size: 14px;
-}
-.blog .blog-comments .reply-form textarea:focus {
-  box-shadow: none;
-  border-color: #e9797f;
-}
 .blog .blog-comments .reply-form .form-group {
   margin-bottom: 25px;
 }
@@ -1549,40 +1531,6 @@ section {
 }
 .blog .sidebar .sidebar-item {
   margin-bottom: 30px;
-}
-.blog .sidebar .search-form form {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 3px 10px;
-  position: relative;
-}
-.blog .sidebar .search-form form input[type=text] {
-  border: 0;
-  padding: 4px;
-  border-radius: 4px;
-  width: calc(100% - 40px);
-}
-.blog .sidebar .search-form form button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 15px;
-  margin: -1px;
-  background: #008FC1;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-  line-height: 0;
-}
-.blog .sidebar .search-form form button i {
-  line-height: 0;
-}
-.blog .sidebar .search-form form button:hover {
-  background: #de323c;
 }
 .blog .sidebar .categories ul {
   list-style: none;
@@ -1746,35 +1694,6 @@ section {
 #footer .footer-top .footer-links ul a:hover {
   color: white;
 }
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #008FC1;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #df3740;
-}
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -1792,4 +1711,103 @@ section {
 }
 #footer .credits a:hover {
   color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.tarjeta{
+  font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+}
+
+html, body, #hero, #heroCarousel, .carousel-inner{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+    text-transform: uppercase;
+}
+.container {
+  font-size: 14px;
+  color: #666666;
+  font-family: "Open Sans";
+}
+.parraf{
+  color: orange !important;
+}
+.texto{
+  color: white;
+  font-weight: bold;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+@media only screen and (max-width: 1000px) {
+  .pc {
+    display: none;
+  }
+  .celular {
+    display: visible;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .pc {
+    display: visible;
+  }
+  .celular {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .tarjeta {
+    width: 100% !important;
+  }
+}
+
+.card-custom {
+  overflow: hidden;
+  min-height: 350px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+  height: 100px;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+  position: absolute;
+  content: "";
+  top: 60px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 40px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 545px;
+  border-left-width: calc(575px - 5vw);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 5px;
+  left: 1.25rem;
+  width: 100px;
+  height: 100px;
 }
