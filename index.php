@@ -37,7 +37,7 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto pc"><a href="#hero"><img src="assets/img/nombre2.png" alt="" width="150px"></a></h1>
+      <h1 class="logo me-auto pc"><a href="#hero"><img src="assets/img/nombre2.png" alt="" height="200px"></a></h1>
       <h1 class="logo me-auto celular"><a href="#hero"><img src="assets/img/logo1.png" alt="" width="40px"></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -92,9 +92,9 @@
                 <div class="carousel-container">
                 <div class="container">
                     <div class="parraf">
-                        <h1 class="animate__animated animate__fadeInDown" style="font-size: 10vw;"><b style="font-size:10vw;">100</b> MEGAS</h1>
+                        <h1 class="animate__animated animate__fadeInDown" style="font-size: 10vh;"><b style="font-size:10vh;">100</b> MEGAS</h1>
                         <h1 class="animate__animated animate__fadeInDown texto">INTERNET ILIMITADO</h1>
-                        <h3 class="animate__animated animate__fadeInUp"><b class="texto">DESDE</b> <b style="font-size: 10vw;">$ 500</b></h3>
+                        <h3 class="animate__animated animate__fadeInUp"><b class="texto">DESDE</b> <b style="font-size: 10vh;">$ 500</b></h3>
                         <h3 class="animate__animated animate__fadeInUp texto">AL MES</h3>
                     </div>
                     <div>
@@ -109,10 +109,10 @@
                 <div class="carousel-container">
                 <div class="container">
                     <div class="parraf">
-                    <h1 class="animate__animated animate__fadeInDown texto">AHORA CON</h1>
-                    <h1 class="animate__animated animate__fadeInDown" style="font-size: 8vw;"><b style="font-size:8vw;">TV</b> Y <b style="font-size:8vw;">PELICULAS</b></h1>
+                    <h1 class="animate__animated animate__fadeInDown texto">AHORA CON CANALES DE</h1>
+                    <h1 class="animate__animated animate__fadeInDown" style="font-size: 8vh;"><b style="font-size:8vh;">TV</b> Y <b style="font-size:8vh;">PELICULAS</b></h1>
                     <h3 class="animate__animated animate__fadeInUp texto">TOTALMENTE</h3>
-                    <h3 class="animate__animated animate__fadeInUp" style="font-size: 8vw;">GRATIS !!!</h3>
+                    <h3 class="animate__animated animate__fadeInUp" style="font-size: 8vh;">GRATIS !!!</h3>
                     </div>
                 </div>
                 </div>
@@ -135,18 +135,18 @@
     <div class="container">
 
       <div class="row content">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <h2 align="center">ACERCA DE NOSOTROS</h2>
-          <h3 align="justify">Somos una empresa 100% Mexicana, atendiendo al sector recidencial, pyme, empresarial y gobierno en el área de telecomunicaciones, así como en diseño de redes, video vigilancia, computo, energías alternativas y punto de venta.</h3>
+          <h4 align="justify">Somos una empresa 100% Mexicana, atendiendo al sector recidencial, pyme, empresarial y gobierno en el área de telecomunicaciones, así como en diseño de redes, video vigilancia, computo, energías alternativas y punto de venta.</h3>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0">
+        <!--div class="col-lg-6 pt-4 pt-lg-0">
           <br><br><br>
           <ul>
             <li style="text-align: justify;"><i class="ri-check-double-line"></i> Empresa especializada en brindar servicios de Internet, a traves de Redes Inalámbricas y servicio de Fibra óptica.</li>
             <li style="text-align: justify;"><i class="ri-check-double-line"></i> Somos una empresa jóven e innovadora que crea un medio tecnológico de vanguardia local para promover sus productos o servicios.</li>
             <li style="text-align: justify;"><i class="ri-check-double-line"></i> Contamos con personal capacitado y certificado en diferentes áreas, con años en el mercado y más de un centenar de clientes satisfechos.</li>
           </ul>
-        </div>
+        </div-->
       </div>
 
     </div>
